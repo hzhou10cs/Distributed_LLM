@@ -104,7 +104,7 @@ Common split used for 28-layer Llama-3.2-1B:
 
 #### Example (single machine, 3 terminals, localhost ring)
 
-Terminal A (head, receives from tail on `6003`, sends to middle on `6001`):
+Terminal A (head, receives from tail on `6001`, sends to middle on `6002`):
 
 ```bash
 python distributed_llama32_opt.py ^
@@ -116,7 +116,7 @@ python distributed_llama32_opt.py ^
   --max_new_tokens 100
 ```
 
-Terminal B (middle, receives from head `6001`, sends to tail `6002`):
+Terminal B (middle, receives from head `6002`, sends to tail `6003`):
 
 ```bash
 python distributed_llama32_opt.py ^
@@ -127,7 +127,7 @@ python distributed_llama32_opt.py ^
   --max_new_tokens 100
 ```
 
-Terminal C (tail, receives from middle `6002`, sends token to head `6003`):
+Terminal C (tail, receives from middle `6003`, sends token to head `6001`):
 
 ```bash
 python distributed_llama32_opt.py ^
