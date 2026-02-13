@@ -1,0 +1,311 @@
+[2026-01-27 03:58:16] [-1->16] Listening on 192.168.50.1:5001
+[2026-01-27 03:58:17] [-1->16] Connected downstream to 192.168.50.2:5002
+[2026-01-27 03:58:17] [-1->16] Accepted upstream connection
+[2026-01-27 03:58:17] === PREFILL START ===
+[2026-01-27 03:58:17] Prefill phase: embedding→…
+[2026-01-27 03:58:20] Embed→slice0 time: 2844.11 ms
+[2026-01-27 03:58:20] === PREFILL FINISHED ===
+[2026-01-27 03:58:20] === GENERATION START ===
+[2026-01-27 03:58:21] (Seq 0) Received next_token=tensor([[578]])
+[2026-01-27 03:58:21] Prefilling stage takes 1095.82 ms
+[2026-01-27 03:58:22] Embed→slice0 time: 92.26 ms
+[2026-01-27 03:58:22] (Seq 1) Received next_token=tensor([[21970]])
+[2026-01-27 03:58:22] Generation token 1 takes 401.25 ms
+[2026-01-27 03:58:22] Embed→slice0 time: 64.83 ms
+[2026-01-27 03:58:22] (Seq 2) Received next_token=tensor([[574]])
+[2026-01-27 03:58:22] Generation token 2 takes 243.63 ms
+[2026-01-27 03:58:22] Embed→slice0 time: 70.25 ms
+[2026-01-27 03:58:22] (Seq 3) Received next_token=tensor([[23712]])
+[2026-01-27 03:58:22] Generation token 3 takes 225.51 ms
+[2026-01-27 03:58:22] Embed→slice0 time: 67.19 ms
+[2026-01-27 03:58:22] (Seq 4) Received next_token=tensor([[555]])
+[2026-01-27 03:58:22] Generation token 4 takes 229.36 ms
+[2026-01-27 03:58:23] Embed→slice0 time: 67.80 ms
+[2026-01-27 03:58:23] (Seq 5) Received next_token=tensor([[264]])
+[2026-01-27 03:58:23] Generation token 5 takes 228.89 ms
+[2026-01-27 03:58:23] Embed→slice0 time: 87.61 ms
+[2026-01-27 03:58:23] (Seq 6) Received next_token=tensor([[6453]])
+[2026-01-27 03:58:23] Generation token 6 takes 223.88 ms
+[2026-01-27 03:58:23] Embed→slice0 time: 80.58 ms
+[2026-01-27 03:58:23] (Seq 7) Received next_token=tensor([[323]])
+[2026-01-27 03:58:23] Generation token 7 takes 221.66 ms
+[2026-01-27 03:58:23] Embed→slice0 time: 65.75 ms
+[2026-01-27 03:58:23] (Seq 8) Received next_token=tensor([[57775]])
+[2026-01-27 03:58:23] Generation token 8 takes 210.89 ms
+[2026-01-27 03:58:23] Embed→slice0 time: 70.14 ms
+[2026-01-27 03:58:24] (Seq 9) Received next_token=tensor([[67172]])
+[2026-01-27 03:58:24] Generation token 9 takes 217.37 ms
+[2026-01-27 03:58:24] Embed→slice0 time: 66.79 ms
+[2026-01-27 03:58:24] (Seq 10) Received next_token=tensor([[13]])
+[2026-01-27 03:58:24] Generation token 10 takes 204.00 ms
+[2026-01-27 03:58:24] Embed→slice0 time: 64.44 ms
+[2026-01-27 03:58:24] (Seq 11) Received next_token=tensor([[1472]])
+[2026-01-27 03:58:24] Generation token 11 takes 214.19 ms
+[2026-01-27 03:58:24] Embed→slice0 time: 69.37 ms
+[2026-01-27 03:58:24] (Seq 12) Received next_token=tensor([[1518]])
+[2026-01-27 03:58:24] Generation token 12 takes 224.17 ms
+[2026-01-27 03:58:24] Embed→slice0 time: 64.67 ms
+[2026-01-27 03:58:24] (Seq 13) Received next_token=tensor([[11]])
+[2026-01-27 03:58:24] Generation token 13 takes 226.95 ms
+[2026-01-27 03:58:25] Embed→slice0 time: 70.64 ms
+[2026-01-27 03:58:25] (Seq 14) Received next_token=tensor([[264]])
+[2026-01-27 03:58:25] Generation token 14 takes 223.89 ms
+[2026-01-27 03:58:25] Embed→slice0 time: 69.14 ms
+[2026-01-27 03:58:25] (Seq 15) Received next_token=tensor([[45077]])
+[2026-01-27 03:58:25] Generation token 15 takes 223.88 ms
+[2026-01-27 03:58:25] Embed→slice0 time: 69.52 ms
+[2026-01-27 03:58:25] (Seq 16) Received next_token=tensor([[37482]])
+[2026-01-27 03:58:25] Generation token 16 takes 225.19 ms
+[2026-01-27 03:58:25] Embed→slice0 time: 68.78 ms
+[2026-01-27 03:58:25] (Seq 17) Received next_token=tensor([[1047]])
+[2026-01-27 03:58:25] Generation token 17 takes 227.40 ms
+[2026-01-27 03:58:25] Embed→slice0 time: 70.79 ms
+[2026-01-27 03:58:26] (Seq 18) Received next_token=tensor([[5918]])
+[2026-01-27 03:58:26] Generation token 18 takes 224.24 ms
+[2026-01-27 03:58:26] Embed→slice0 time: 75.86 ms
+[2026-01-27 03:58:26] (Seq 19) Received next_token=tensor([[264]])
+[2026-01-27 03:58:26] Generation token 19 takes 218.49 ms
+[2026-01-27 03:58:26] Embed→slice0 time: 64.51 ms
+[2026-01-27 03:58:26] (Seq 20) Received next_token=tensor([[13141]])
+[2026-01-27 03:58:26] Generation token 20 takes 207.31 ms
+[2026-01-27 03:58:26] Embed→slice0 time: 66.19 ms
+[2026-01-27 03:58:26] (Seq 21) Received next_token=tensor([[315]])
+[2026-01-27 03:58:26] Generation token 21 takes 214.01 ms
+[2026-01-27 03:58:26] Embed→slice0 time: 67.24 ms
+[2026-01-27 03:58:26] (Seq 22) Received next_token=tensor([[59714]])
+[2026-01-27 03:58:26] Generation token 22 takes 204.62 ms
+[2026-01-27 03:58:26] Embed→slice0 time: 66.50 ms
+[2026-01-27 03:58:27] (Seq 23) Received next_token=tensor([[304]])
+[2026-01-27 03:58:27] Generation token 23 takes 213.72 ms
+[2026-01-27 03:58:27] Embed→slice0 time: 68.54 ms
+[2026-01-27 03:58:27] (Seq 24) Received next_token=tensor([[279]])
+[2026-01-27 03:58:27] Generation token 24 takes 205.56 ms
+[2026-01-27 03:58:27] Embed→slice0 time: 67.54 ms
+[2026-01-27 03:58:27] (Seq 25) Received next_token=tensor([[67172]])
+[2026-01-27 03:58:27] Generation token 25 takes 214.64 ms
+[2026-01-27 03:58:27] Embed→slice0 time: 65.61 ms
+[2026-01-27 03:58:27] (Seq 26) Received next_token=tensor([[11]])
+[2026-01-27 03:58:27] Generation token 26 takes 206.85 ms
+[2026-01-27 03:58:27] Embed→slice0 time: 68.96 ms
+[2026-01-27 03:58:27] (Seq 27) Received next_token=tensor([[323]])
+[2026-01-27 03:58:27] Generation token 27 takes 213.16 ms
+[2026-01-27 03:58:28] Embed→slice0 time: 61.76 ms
+[2026-01-27 03:58:28] (Seq 28) Received next_token=tensor([[1475]])
+[2026-01-27 03:58:28] Generation token 28 takes 201.28 ms
+[2026-01-27 03:58:28] Embed→slice0 time: 68.11 ms
+[2026-01-27 03:58:28] (Seq 29) Received next_token=tensor([[2539]])
+[2026-01-27 03:58:28] Generation token 29 takes 213.43 ms
+[2026-01-27 03:58:28] Embed→slice0 time: 62.53 ms
+[2026-01-27 03:58:28] (Seq 30) Received next_token=tensor([[18266]])
+[2026-01-27 03:58:28] Generation token 30 takes 196.87 ms
+[2026-01-27 03:58:28] Embed→slice0 time: 63.42 ms
+[2026-01-27 03:58:28] (Seq 31) Received next_token=tensor([[11]])
+[2026-01-27 03:58:28] Generation token 31 takes 217.83 ms
+[2026-01-27 03:58:28] Embed→slice0 time: 68.20 ms
+[2026-01-27 03:58:29] (Seq 32) Received next_token=tensor([[14289]])
+[2026-01-27 03:58:29] Generation token 32 takes 200.21 ms
+[2026-01-27 03:58:29] Embed→slice0 time: 63.96 ms
+[2026-01-27 03:58:29] (Seq 33) Received next_token=tensor([[31739]])
+[2026-01-27 03:58:29] Generation token 33 takes 216.78 ms
+[2026-01-27 03:58:29] Embed→slice0 time: 67.26 ms
+[2026-01-27 03:58:29] (Seq 34) Received next_token=tensor([[1053]])
+[2026-01-27 03:58:29] Generation token 34 takes 199.03 ms
+[2026-01-27 03:58:29] Embed→slice0 time: 83.23 ms
+[2026-01-27 03:58:29] (Seq 35) Received next_token=tensor([[10205]])
+[2026-01-27 03:58:29] Generation token 35 takes 219.53 ms
+[2026-01-27 03:58:29] Embed→slice0 time: 71.18 ms
+[2026-01-27 03:58:29] (Seq 36) Received next_token=tensor([[709]])
+[2026-01-27 03:58:29] Generation token 36 takes 200.73 ms
+[2026-01-27 03:58:29] Embed→slice0 time: 77.43 ms
+[2026-01-27 03:58:30] (Seq 37) Received next_token=tensor([[311]])
+[2026-01-27 03:58:30] Generation token 37 takes 216.79 ms
+[2026-01-27 03:58:30] Embed→slice0 time: 82.31 ms
+[2026-01-27 03:58:30] (Seq 38) Received next_token=tensor([[76067]])
+[2026-01-27 03:58:30] Generation token 38 takes 205.98 ms
+[2026-01-27 03:58:30] Embed→slice0 time: 67.37 ms
+[2026-01-27 03:58:30] (Seq 39) Received next_token=tensor([[279]])
+[2026-01-27 03:58:30] Generation token 39 takes 215.63 ms
+[2026-01-27 03:58:30] Embed→slice0 time: 66.93 ms
+[2026-01-27 03:58:30] (Seq 40) Received next_token=tensor([[67172]])
+[2026-01-27 03:58:30] Generation token 40 takes 201.41 ms
+[2026-01-27 03:58:30] Embed→slice0 time: 70.80 ms
+[2026-01-27 03:58:30] (Seq 41) Received next_token=tensor([[11]])
+[2026-01-27 03:58:30] Generation token 41 takes 215.79 ms
+[2026-01-27 03:58:30] Embed→slice0 time: 69.99 ms
+[2026-01-27 03:58:31] (Seq 42) Received next_token=tensor([[323]])
+[2026-01-27 03:58:31] Generation token 42 takes 200.74 ms
+[2026-01-27 03:58:31] Embed→slice0 time: 69.40 ms
+[2026-01-27 03:58:31] (Seq 43) Received next_token=tensor([[3629]])
+[2026-01-27 03:58:31] Generation token 43 takes 218.06 ms
+[2026-01-27 03:58:31] Embed→slice0 time: 68.88 ms
+[2026-01-27 03:58:31] (Seq 44) Received next_token=tensor([[264]])
+[2026-01-27 03:58:31] Generation token 44 takes 201.45 ms
+[2026-01-27 03:58:31] Embed→slice0 time: 67.10 ms
+[2026-01-27 03:58:31] (Seq 45) Received next_token=tensor([[1912]])
+[2026-01-27 03:58:31] Generation token 45 takes 214.04 ms
+[2026-01-27 03:58:31] Embed→slice0 time: 65.04 ms
+[2026-01-27 03:58:31] (Seq 46) Received next_token=tensor([[315]])
+[2026-01-27 03:58:31] Generation token 46 takes 202.49 ms
+[2026-01-27 03:58:32] Embed→slice0 time: 70.91 ms
+[2026-01-27 03:58:32] (Seq 47) Received next_token=tensor([[342]])
+[2026-01-27 03:58:32] Generation token 47 takes 214.96 ms
+[2026-01-27 03:58:32] Embed→slice0 time: 68.16 ms
+[2026-01-27 03:58:32] (Seq 48) Received next_token=tensor([[79914]])
+[2026-01-27 03:58:32] Generation token 48 takes 202.30 ms
+[2026-01-27 03:58:32] Embed→slice0 time: 67.94 ms
+[2026-01-27 03:58:32] (Seq 49) Received next_token=tensor([[12439]])
+[2026-01-27 03:58:32] Generation token 49 takes 216.38 ms
+[2026-01-27 03:58:32] Embed→slice0 time: 62.75 ms
+[2026-01-27 03:58:32] (Seq 50) Received next_token=tensor([[304]])
+[2026-01-27 03:58:32] Generation token 50 takes 199.90 ms
+[2026-01-27 03:58:32] Embed→slice0 time: 62.43 ms
+[2026-01-27 03:58:32] (Seq 51) Received next_token=tensor([[433]])
+[2026-01-27 03:58:32] Generation token 51 takes 196.05 ms
+[2026-01-27 03:58:33] Embed→slice0 time: 62.92 ms
+[2026-01-27 03:58:33] (Seq 52) Received next_token=tensor([[13]])
+[2026-01-27 03:58:33] Generation token 52 takes 198.13 ms
+[2026-01-27 03:58:33] Embed→slice0 time: 63.95 ms
+[2026-01-27 03:58:33] (Seq 53) Received next_token=tensor([[4815]])
+[2026-01-27 03:58:33] Generation token 53 takes 217.87 ms
+[2026-01-27 03:58:33] Embed→slice0 time: 64.13 ms
+[2026-01-27 03:58:33] (Seq 54) Received next_token=tensor([[791]])
+[2026-01-27 03:58:33] Generation token 54 takes 204.33 ms
+[2026-01-27 03:58:33] Embed→slice0 time: 62.06 ms
+[2026-01-27 03:58:33] (Seq 55) Received next_token=tensor([[35068]])
+[2026-01-27 03:58:33] Generation token 55 takes 215.25 ms
+[2026-01-27 03:58:33] Embed→slice0 time: 60.47 ms
+[2026-01-27 03:58:34] (Seq 56) Received next_token=tensor([[574]])
+[2026-01-27 03:58:34] Generation token 56 takes 204.75 ms
+[2026-01-27 03:58:34] Embed→slice0 time: 63.21 ms
+[2026-01-27 03:58:34] (Seq 57) Received next_token=tensor([[264]])
+[2026-01-27 03:58:34] Generation token 57 takes 200.06 ms
+[2026-01-27 03:58:34] Embed→slice0 time: 62.47 ms
+[2026-01-27 03:58:34] (Seq 58) Received next_token=tensor([[6453]])
+[2026-01-27 03:58:34] Generation token 58 takes 212.62 ms
+[2026-01-27 03:58:34] Embed→slice0 time: 65.78 ms
+[2026-01-27 03:58:34] (Seq 59) Received next_token=tensor([[11204]])
+[2026-01-27 03:58:34] Generation token 59 takes 201.55 ms
+[2026-01-27 03:58:34] Embed→slice0 time: 60.26 ms
+[2026-01-27 03:58:34] (Seq 60) Received next_token=tensor([[35068]])
+[2026-01-27 03:58:34] Generation token 60 takes 198.51 ms
+[2026-01-27 03:58:34] Embed→slice0 time: 64.82 ms
+[2026-01-27 03:58:35] (Seq 61) Received next_token=tensor([[11]])
+[2026-01-27 03:58:35] Generation token 61 takes 216.10 ms
+[2026-01-27 03:58:35] Embed→slice0 time: 66.88 ms
+[2026-01-27 03:58:35] (Seq 62) Received next_token=tensor([[889]])
+[2026-01-27 03:58:35] Generation token 62 takes 205.73 ms
+[2026-01-27 03:58:35] Embed→slice0 time: 61.97 ms
+[2026-01-27 03:58:35] (Seq 63) Received next_token=tensor([[8774]])
+[2026-01-27 03:58:35] Generation token 63 takes 214.11 ms
+[2026-01-27 03:58:35] Embed→slice0 time: 66.52 ms
+[2026-01-27 03:58:35] (Seq 64) Received next_token=tensor([[311]])
+[2026-01-27 03:58:35] Generation token 64 takes 203.59 ms
+[2026-01-27 03:58:35] Embed→slice0 time: 61.74 ms
+[2026-01-27 03:58:35] (Seq 65) Received next_token=tensor([[5678]])
+[2026-01-27 03:58:35] Generation token 65 takes 213.09 ms
+[2026-01-27 03:58:35] Embed→slice0 time: 61.48 ms
+[2026-01-27 03:58:36] (Seq 66) Received next_token=tensor([[11]])
+[2026-01-27 03:58:36] Generation token 66 takes 205.71 ms
+[2026-01-27 03:58:36] Embed→slice0 time: 61.43 ms
+[2026-01-27 03:58:36] (Seq 67) Received next_token=tensor([[264]])
+[2026-01-27 03:58:36] Generation token 67 takes 199.32 ms
+[2026-01-27 03:58:36] Embed→slice0 time: 63.95 ms
+[2026-01-27 03:58:36] (Seq 68) Received next_token=tensor([[45077]])
+[2026-01-27 03:58:36] Generation token 68 takes 212.32 ms
+[2026-01-27 03:58:36] Embed→slice0 time: 61.92 ms
+[2026-01-27 03:58:36] (Seq 69) Received next_token=tensor([[893]])
+[2026-01-27 03:58:36] Generation token 69 takes 202.16 ms
+[2026-01-27 03:58:36] Embed→slice0 time: 63.21 ms
+[2026-01-27 03:58:36] (Seq 70) Received next_token=tensor([[430]])
+[2026-01-27 03:58:36] Generation token 70 takes 213.91 ms
+[2026-01-27 03:58:36] Embed→slice0 time: 64.82 ms
+[2026-01-27 03:58:37] (Seq 71) Received next_token=tensor([[1903]])
+[2026-01-27 03:58:37] Generation token 71 takes 202.63 ms
+[2026-01-27 03:58:37] Embed→slice0 time: 68.30 ms
+[2026-01-27 03:58:37] (Seq 72) Received next_token=tensor([[281]])
+[2026-01-27 03:58:37] Generation token 72 takes 215.97 ms
+[2026-01-27 03:58:37] Embed→slice0 time: 68.08 ms
+[2026-01-27 03:58:37] (Seq 73) Received next_token=tensor([[11613]])
+[2026-01-27 03:58:37] Generation token 73 takes 212.42 ms
+[2026-01-27 03:58:37] Embed→slice0 time: 66.42 ms
+[2026-01-27 03:58:37] (Seq 74) Received next_token=tensor([[449]])
+[2026-01-27 03:58:37] Generation token 74 takes 217.33 ms
+[2026-01-27 03:58:37] Embed→slice0 time: 69.64 ms
+[2026-01-27 03:58:37] (Seq 75) Received next_token=tensor([[27394]])
+[2026-01-27 03:58:37] Generation token 75 takes 221.14 ms
+[2026-01-27 03:58:38] Embed→slice0 time: 65.05 ms
+[2026-01-27 03:58:38] (Seq 76) Received next_token=tensor([[13]])
+[2026-01-27 03:58:38] Generation token 76 takes 205.48 ms
+[2026-01-27 03:58:38] Embed→slice0 time: 63.52 ms
+[2026-01-27 03:58:38] (Seq 77) Received next_token=tensor([[9029]])
+[2026-01-27 03:58:38] Generation token 77 takes 204.17 ms
+[2026-01-27 03:58:38] Embed→slice0 time: 62.37 ms
+[2026-01-27 03:58:38] (Seq 78) Received next_token=tensor([[1053]])
+[2026-01-27 03:58:38] Generation token 78 takes 214.33 ms
+[2026-01-27 03:58:38] Embed→slice0 time: 61.68 ms
+[2026-01-27 03:58:38] (Seq 79) Received next_token=tensor([[6865]])
+[2026-01-27 03:58:38] Generation token 79 takes 202.63 ms
+[2026-01-27 03:58:38] Embed→slice0 time: 63.21 ms
+[2026-01-27 03:58:39] (Seq 80) Received next_token=tensor([[315]])
+[2026-01-27 03:58:39] Generation token 80 takes 214.15 ms
+[2026-01-27 03:58:39] Embed→slice0 time: 60.87 ms
+[2026-01-27 03:58:39] (Seq 81) Received next_token=tensor([[813]])
+[2026-01-27 03:58:39] Generation token 81 takes 202.97 ms
+[2026-01-27 03:58:39] Embed→slice0 time: 61.16 ms
+[2026-01-27 03:58:39] (Seq 82) Received next_token=tensor([[6453]])
+[2026-01-27 03:58:39] Generation token 82 takes 216.18 ms
+[2026-01-27 03:58:39] Embed→slice0 time: 63.75 ms
+[2026-01-27 03:58:39] (Seq 83) Received next_token=tensor([[13141]])
+[2026-01-27 03:58:39] Generation token 83 takes 200.17 ms
+[2026-01-27 03:58:39] Embed→slice0 time: 64.33 ms
+[2026-01-27 03:58:39] (Seq 84) Received next_token=tensor([[77432]])
+[2026-01-27 03:58:39] Generation token 84 takes 194.66 ms
+[2026-01-27 03:58:39] Embed→slice0 time: 68.07 ms
+[2026-01-27 03:58:40] (Seq 85) Received next_token=tensor([[11]])
+[2026-01-27 03:58:40] Generation token 85 takes 215.62 ms
+[2026-01-27 03:58:40] Embed→slice0 time: 68.83 ms
+[2026-01-27 03:58:40] (Seq 86) Received next_token=tensor([[323]])
+[2026-01-27 03:58:40] Generation token 86 takes 201.72 ms
+[2026-01-27 03:58:40] Embed→slice0 time: 63.98 ms
+[2026-01-27 03:58:40] (Seq 87) Received next_token=tensor([[1053]])
+[2026-01-27 03:58:40] Generation token 87 takes 213.67 ms
+[2026-01-27 03:58:40] Embed→slice0 time: 65.04 ms
+[2026-01-27 03:58:40] (Seq 88) Received next_token=tensor([[18659]])
+[2026-01-27 03:58:40] Generation token 88 takes 204.88 ms
+[2026-01-27 03:58:40] Embed→slice0 time: 64.64 ms
+[2026-01-27 03:58:40] (Seq 89) Received next_token=tensor([[901]])
+[2026-01-27 03:58:40] Generation token 89 takes 215.27 ms
+[2026-01-27 03:58:40] Embed→slice0 time: 61.45 ms
+[2026-01-27 03:58:41] (Seq 90) Received next_token=tensor([[449]])
+[2026-01-27 03:58:41] Generation token 90 takes 204.43 ms
+[2026-01-27 03:58:41] Embed→slice0 time: 63.50 ms
+[2026-01-27 03:58:41] (Seq 91) Received next_token=tensor([[8850]])
+[2026-01-27 03:58:41] Generation token 91 takes 210.92 ms
+[2026-01-27 03:58:41] Embed→slice0 time: 64.06 ms
+[2026-01-27 03:58:41] (Seq 92) Received next_token=tensor([[315]])
+[2026-01-27 03:58:41] Generation token 92 takes 204.88 ms
+[2026-01-27 03:58:41] Embed→slice0 time: 65.52 ms
+[2026-01-27 03:58:41] (Seq 93) Received next_token=tensor([[279]])
+[2026-01-27 03:58:41] Generation token 93 takes 212.54 ms
+[2026-01-27 03:58:41] Embed→slice0 time: 63.72 ms
+[2026-01-27 03:58:41] (Seq 94) Received next_token=tensor([[35612]])
+[2026-01-27 03:58:41] Generation token 94 takes 210.55 ms
+[2026-01-27 03:58:41] Embed→slice0 time: 63.75 ms
+[2026-01-27 03:58:42] (Seq 95) Received next_token=tensor([[382]])
+[2026-01-27 03:58:42] Generation token 95 takes 197.13 ms
+[2026-01-27 03:58:42] Embed→slice0 time: 63.67 ms
+[2026-01-27 03:58:42] (Seq 96) Received next_token=tensor([[4054]])
+[2026-01-27 03:58:42] Generation token 96 takes 218.70 ms
+[2026-01-27 03:58:42] Embed→slice0 time: 72.29 ms
+[2026-01-27 03:58:42] (Seq 97) Received next_token=tensor([[3814]])
+[2026-01-27 03:58:42] Generation token 97 takes 217.01 ms
+[2026-01-27 03:58:42] Embed→slice0 time: 71.23 ms
+[2026-01-27 03:58:42] (Seq 98) Received next_token=tensor([[11]])
+[2026-01-27 03:58:42] Generation token 98 takes 223.78 ms
+[2026-01-27 03:58:42] Embed→slice0 time: 65.40 ms
+[2026-01-27 03:58:42] (Seq 99) Received next_token=tensor([[264]])
+[2026-01-27 03:58:42] Generation token 99 takes 205.69 ms
+[2026-01-27 03:58:43] Embed→slice0 time: 68.71 ms
+[2026-01-27 03:58:43] Average token time: 213.16 ms
+[2026-01-27 03:58:43] Average stage time: 66.95 ms
+[2026-01-27 03:58:43] Done.

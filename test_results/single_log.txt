@@ -1,0 +1,198 @@
+position embedding time: 26.0 ms
+Decoding time: 544.6 ms
+position embedding time: 2.1 ms
+Decoding time: 425.7 ms
+position embedding time: 2.4 ms
+Decoding time: 371.9 ms
+position embedding time: 1.6 ms
+Decoding time: 379.6 ms
+position embedding time: 1.7 ms
+Decoding time: 357.4 ms
+position embedding time: 1.7 ms
+Decoding time: 353.6 ms
+position embedding time: 1.7 ms
+Decoding time: 363.0 ms
+position embedding time: 1.7 ms
+Decoding time: 353.5 ms
+position embedding time: 1.6 ms
+Decoding time: 353.0 ms
+position embedding time: 1.6 ms
+Decoding time: 353.3 ms
+position embedding time: 1.6 ms
+Decoding time: 352.1 ms
+position embedding time: 1.7 ms
+Decoding time: 356.7 ms
+position embedding time: 1.6 ms
+Decoding time: 350.2 ms
+position embedding time: 1.7 ms
+Decoding time: 353.7 ms
+position embedding time: 1.7 ms
+Decoding time: 354.6 ms
+position embedding time: 1.6 ms
+Decoding time: 354.8 ms
+position embedding time: 1.7 ms
+Decoding time: 353.6 ms
+position embedding time: 1.6 ms
+Decoding time: 352.3 ms
+position embedding time: 1.6 ms
+Decoding time: 351.1 ms
+position embedding time: 1.7 ms
+Decoding time: 351.1 ms
+position embedding time: 1.6 ms
+Decoding time: 350.8 ms
+position embedding time: 1.7 ms
+Decoding time: 350.9 ms
+position embedding time: 1.7 ms
+Decoding time: 351.3 ms
+position embedding time: 1.6 ms
+Decoding time: 352.1 ms
+position embedding time: 1.7 ms
+Decoding time: 351.3 ms
+position embedding time: 1.6 ms
+Decoding time: 350.8 ms
+position embedding time: 4.4 ms
+Decoding time: 351.3 ms
+position embedding time: 1.6 ms
+Decoding time: 352.7 ms
+position embedding time: 1.6 ms
+Decoding time: 354.9 ms
+position embedding time: 1.6 ms
+Decoding time: 354.5 ms
+position embedding time: 1.7 ms
+Decoding time: 351.4 ms
+position embedding time: 1.7 ms
+Decoding time: 351.2 ms
+position embedding time: 1.6 ms
+Decoding time: 352.6 ms
+position embedding time: 1.6 ms
+Decoding time: 351.7 ms
+position embedding time: 1.7 ms
+Decoding time: 352.8 ms
+position embedding time: 1.6 ms
+Decoding time: 352.9 ms
+position embedding time: 1.7 ms
+Decoding time: 351.1 ms
+position embedding time: 1.6 ms
+Decoding time: 359.8 ms
+position embedding time: 1.6 ms
+Decoding time: 356.7 ms
+position embedding time: 1.7 ms
+Decoding time: 351.4 ms
+position embedding time: 1.6 ms
+Decoding time: 353.5 ms
+position embedding time: 1.6 ms
+Decoding time: 360.7 ms
+position embedding time: 1.6 ms
+Decoding time: 355.3 ms
+position embedding time: 1.7 ms
+Decoding time: 357.4 ms
+position embedding time: 1.6 ms
+Decoding time: 353.1 ms
+position embedding time: 1.6 ms
+Decoding time: 351.8 ms
+position embedding time: 1.6 ms
+Decoding time: 352.4 ms
+position embedding time: 1.6 ms
+Decoding time: 351.3 ms
+position embedding time: 1.7 ms
+Decoding time: 351.0 ms
+position embedding time: 1.7 ms
+Decoding time: 352.0 ms
+position embedding time: 1.6 ms
+Decoding time: 351.9 ms
+position embedding time: 1.6 ms
+Decoding time: 351.7 ms
+position embedding time: 1.6 ms
+Decoding time: 354.6 ms
+position embedding time: 1.6 ms
+Decoding time: 355.5 ms
+position embedding time: 1.7 ms
+Decoding time: 361.3 ms
+position embedding time: 1.7 ms
+Decoding time: 354.6 ms
+position embedding time: 1.6 ms
+Decoding time: 354.9 ms
+position embedding time: 1.6 ms
+Decoding time: 355.6 ms
+position embedding time: 1.7 ms
+Decoding time: 354.6 ms
+position embedding time: 1.6 ms
+Decoding time: 357.8 ms
+position embedding time: 1.6 ms
+Decoding time: 358.2 ms
+position embedding time: 1.6 ms
+Decoding time: 352.6 ms
+position embedding time: 1.6 ms
+Decoding time: 350.6 ms
+position embedding time: 1.6 ms
+Decoding time: 360.5 ms
+position embedding time: 1.6 ms
+Decoding time: 359.3 ms
+position embedding time: 1.7 ms
+Decoding time: 356.1 ms
+position embedding time: 1.7 ms
+Decoding time: 362.1 ms
+position embedding time: 1.6 ms
+Decoding time: 358.1 ms
+position embedding time: 1.7 ms
+Decoding time: 363.5 ms
+position embedding time: 1.6 ms
+Decoding time: 356.1 ms
+position embedding time: 1.6 ms
+Decoding time: 362.1 ms
+position embedding time: 1.7 ms
+Decoding time: 363.8 ms
+position embedding time: 1.6 ms
+Decoding time: 361.7 ms
+position embedding time: 1.6 ms
+Decoding time: 360.5 ms
+position embedding time: 1.6 ms
+Decoding time: 358.0 ms
+position embedding time: 1.7 ms
+Decoding time: 357.3 ms
+position embedding time: 1.7 ms
+Decoding time: 351.2 ms
+position embedding time: 1.6 ms
+Decoding time: 350.7 ms
+position embedding time: 1.6 ms
+Decoding time: 356.3 ms
+position embedding time: 1.6 ms
+Decoding time: 351.8 ms
+position embedding time: 1.7 ms
+Decoding time: 352.8 ms
+position embedding time: 1.6 ms
+Decoding time: 354.1 ms
+position embedding time: 1.6 ms
+Decoding time: 352.9 ms
+position embedding time: 1.7 ms
+Decoding time: 353.2 ms
+position embedding time: 1.6 ms
+Decoding time: 353.5 ms
+position embedding time: 1.7 ms
+Decoding time: 353.7 ms
+position embedding time: 1.6 ms
+Decoding time: 355.8 ms
+position embedding time: 1.6 ms
+Decoding time: 353.5 ms
+position embedding time: 1.6 ms
+Decoding time: 353.8 ms
+position embedding time: 1.6 ms
+Decoding time: 350.3 ms
+position embedding time: 1.6 ms
+Decoding time: 352.3 ms
+position embedding time: 1.6 ms
+Decoding time: 353.5 ms
+position embedding time: 1.7 ms
+Decoding time: 352.6 ms
+position embedding time: 1.6 ms
+Decoding time: 353.5 ms
+position embedding time: 1.6 ms
+Decoding time: 353.2 ms
+position embedding time: 1.6 ms
+Decoding time: 354.0 ms
+position embedding time: 1.6 ms
+Decoding time: 354.3 ms
+position embedding time: 1.6 ms
+Decoding time: 353.8 ms
+position embedding time: 1.6 ms
+Decoding time: 349.4 ms
