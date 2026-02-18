@@ -1,0 +1,14 @@
+[2026-02-18 17:55:08] [16->22] Listening on 127.0.0.1:6002
+[2026-02-18 17:55:09] [16->22] Connected downstream to 127.0.0.1:6003
+[2026-02-18 17:55:09] [16->22] Accepted upstream connection
+[2026-02-18 17:55:09] === PREFILL START ===
+[2026-02-18 17:55:14] Prefill phase: received hidden+KVs
+[2026-02-18 17:55:18] Sliced‐decoders time: 4329.59 ms
+[2026-02-18 17:55:18] === PREFILL FINISHED ===
+[2026-02-18 17:55:18] === GENERATION START ===
+[2026-02-18 17:55:33] Sliced‐decoders time: 4185.17 ms
+[2026-02-18 17:55:44] Sliced‐decoders time: 3183.31 ms
+[2026-02-18 17:55:57] Sliced‐decoders time: 3277.08 ms
+[2026-02-18 17:56:09] Sliced‐decoders time: 2700.55 ms
+[2026-02-18 17:56:18] Sliced‐decoders time: 3747.93 ms
+[2026-02-18 17:56:32] Sliced‐decoders time: 5532.56 ms
