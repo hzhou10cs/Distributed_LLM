@@ -15,7 +15,7 @@ BASE_PORT="${BASE_PORT:-6001}"
 MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-100}"
 PROMPT="${PROMPT:-Once upon a time, a wizard lived in a tower.}"
 
-python distributed_llama32_opt_local.py \
+python distributed_llama32_local.py \
   --model_name "${MODEL_NAME}" \
   --layer_end1 "${LAYER_END1}" \
   --layer_end2 "${LAYER_END2}" \

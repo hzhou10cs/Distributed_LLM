@@ -106,9 +106,9 @@ class PipelineWrapper:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
             torch_dtype=torch.float16 if device.type=="cuda" else torch.float32,
-            device_map="auto",
-            layer_begin=self.layer_begin,
-            layer_end=self.layer_end,
+            #device_map="auto",
+            #layer_begin=self.layer_begin,
+            #layer_end=self.layer_end,
         )
         # tokenizer only needed on head/tail for encoding + decoding
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -141,7 +141,7 @@ class PipelineWrapper:
         self.seq_num: int = 0
 
         # logging
-        self.log = open(f"device_{layer_begin}_{layer_end}.log", "w", buffering=1)
+        self.log = open(f"device_{layer_begin}_{layer_end}.log", "w", encoding="utf-8", buffering=1)
 
     def logf(self, msg: str):
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
@@ -153,7 +153,8 @@ class PipelineWrapper:
     ) -> Tuple[torch.FloatTensor, Tuple]:
         st = time.time()
         with torch.no_grad():
-            outputs: BaseModelOutputWithPast = self.model(
+            # Use model.model (LlamaModel) to get BaseModelOutputWithPast with last_hidden_state
+            outputs: BaseModelOutputWithPast = self.model.model(
                 input_ids=input_ids.to(self.device),
                 past_key_values=self.past_kvs,
                 use_cache=use_cache,
@@ -161,7 +162,7 @@ class PipelineWrapper:
         hidden = outputs.last_hidden_state
         self.past_kvs = outputs.past_key_values  # save for next call
         dt = (time.time() - st) * 1000
-        self.logf(f"Embed→slice0 time: {dt:.2f} ms")
+        self.logf(f"Embed -> slice0 time: {dt:.2f} ms")
         return hidden.cpu(), dt
 
     def forward_only_decoders(
@@ -169,8 +170,9 @@ class PipelineWrapper:
     ) -> Tuple[torch.FloatTensor, Tuple]:
         st = time.time()
         with torch.no_grad():
-            outputs: BaseModelOutputWithPast = self.model(
-                input_hidden_states=hidden.to(self.device),
+            # Use model.model (LlamaModel) with inputs_embeds (not input_hidden_states)
+            outputs: BaseModelOutputWithPast = self.model.model(
+                inputs_embeds=hidden.to(self.device),
                 past_key_values=self.past_kvs,
                 use_cache=use_cache,
             )
@@ -193,13 +195,18 @@ class PipelineWrapper:
 
         st = time.time()
         with torch.no_grad():
-            out: CausalLMOutputWithPast = self.model(
-                input_hidden_states=hidden.to(self.device),
+            # Use model.model (LlamaModel) with inputs_embeds to get hidden states
+            model_outputs: BaseModelOutputWithPast = self.model.model(
+                inputs_embeds=hidden.to(self.device),
                 past_key_values=self.past_kvs,
                 use_cache=use_cache,
             )
+            # Apply final layer norm and lm_head to get logits
+            hidden_states = model_outputs.last_hidden_state
+            hidden_states = self.model.model.norm(hidden_states)
+            logits = self.model.lm_head(hidden_states)
         
-        logits = out.logits[:, -1, :]          # [1, vocab]
+        logits = logits[:, -1, :]          # [1, vocab]
         next_id = sample_next_token(
             logits,
             generated_ids=generated_ids,
@@ -209,10 +216,10 @@ class PipelineWrapper:
             repetition_penalty=repetition_penalty,
         )
 
-        self.past_kvs = out.past_key_values
+        self.past_kvs = model_outputs.past_key_values
         
         dt = (time.time() - st) * 1000
-        self.logf(f"Norm+head time: {dt:.2f} ms → token (id={next_id.item()})")
+        self.logf(f"Norm+head time: {dt:.2f} ms -> token (id={next_id.item()})")
         return next_id.cpu(), dt
 
 
@@ -282,7 +289,7 @@ def run_device(args):
     wrapper.logf("=== PREFILL START ===")
     if wrapper.is_embed:
         # head‐of‐pipeline: get prompt, tokenize, send through
-        wrapper.logf("Prefill phase: embedding→…")
+        wrapper.logf("Prefill phase: embedding -> …")
         input_ids = wrapper.tokenizer(
             args.prompt, return_tensors="pt"
         ).input_ids

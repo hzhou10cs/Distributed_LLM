@@ -1,0 +1,29 @@
+[2026-02-18 17:55:08] [-1->16] Listening on 127.0.0.1:6001
+[2026-02-18 17:55:09] [-1->16] Connected downstream to 127.0.0.1:6002
+[2026-02-18 17:55:09] [-1->16] Accepted upstream connection
+[2026-02-18 17:55:09] === PREFILL START ===
+[2026-02-18 17:55:09] Prefill phase: embedding -> …
+[2026-02-18 17:55:13] Embed -> slice0 time: 4426.88 ms
+[2026-02-18 17:55:14] === PREFILL FINISHED ===
+[2026-02-18 17:55:14] === GENERATION START ===
+[2026-02-18 17:55:26] (Seq 0) Received next_token=tensor([[320]])
+[2026-02-18 17:55:26] Prefilling stage takes 12306.67 ms
+[2026-02-18 17:55:29] Embed -> slice0 time: 2944.83 ms
+[2026-02-18 17:55:37] (Seq 1) Received next_token=tensor([[2822]])
+[2026-02-18 17:55:37] Generation token 1 takes 11567.58 ms
+[2026-02-18 17:55:40] Embed -> slice0 time: 3043.61 ms
+[2026-02-18 17:55:49] (Seq 2) Received next_token=tensor([[11]])
+[2026-02-18 17:55:49] Generation token 2 takes 11646.89 ms
+[2026-02-18 17:55:54] Embed -> slice0 time: 4644.72 ms
+[2026-02-18 17:56:04] (Seq 3) Received next_token=tensor([[11]])
+[2026-02-18 17:56:04] Generation token 3 takes 14550.16 ms
+[2026-02-18 17:56:07] Embed -> slice0 time: 3032.01 ms
+[2026-02-18 17:56:13] (Seq 4) Received next_token=tensor([[358]])
+[2026-02-18 17:56:13] Generation token 4 takes 9350.23 ms
+[2026-02-18 17:56:14] Embed -> slice0 time: 1409.41 ms
+[2026-02-18 17:56:25] (Seq 5) Received next_token=tensor([[11]])
+[2026-02-18 17:56:25] Generation token 5 takes 11616.12 ms
+[2026-02-18 17:56:27] Embed -> slice0 time: 2390.42 ms
+[2026-02-18 17:56:38] (Seq 6) Received next_token=tensor([[11]])
+[2026-02-18 17:56:38] Generation token 6 takes 13515.77 ms
+[2026-02-18 17:56:42] Embed -> slice0 time: 3659.93 ms

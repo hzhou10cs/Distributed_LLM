@@ -1,0 +1,20 @@
+[2026-02-18 17:55:08] [22->-1] Listening on 127.0.0.1:6003
+[2026-02-18 17:55:09] [22->-1] Connected downstream to 127.0.0.1:6001
+[2026-02-18 17:55:09] [22->-1] Accepted upstream connection
+[2026-02-18 17:55:09] === PREFILL START ===
+[2026-02-18 17:55:18] Prefill phase: hidden+KVs -> logits
+[2026-02-18 17:55:25] Norm+head time: 7455.99 ms -> token (id=320)
+[2026-02-18 17:55:26] === PREFILL FINISHED ===
+[2026-02-18 17:55:26] === GENERATION START ===
+[2026-02-18 17:55:37] Norm+head time: 4116.64 ms -> token (id=2822)
+[2026-02-18 17:55:37] (Seq 0) Emitting next_token=tensor([[2822]])
+[2026-02-18 17:55:49] Norm+head time: 5276.37 ms -> token (id=11)
+[2026-02-18 17:55:49] (Seq 1) Emitting next_token=tensor([[11]])
+[2026-02-18 17:56:03] Norm+head time: 6409.39 ms -> token (id=11)
+[2026-02-18 17:56:04] (Seq 2) Emitting next_token=tensor([[11]])
+[2026-02-18 17:56:13] Norm+head time: 3205.29 ms -> token (id=358)
+[2026-02-18 17:56:13] (Seq 3) Emitting next_token=tensor([[358]])
+[2026-02-18 17:56:24] Norm+head time: 6218.56 ms -> token (id=11)
+[2026-02-18 17:56:24] (Seq 4) Emitting next_token=tensor([[11]])
+[2026-02-18 17:56:38] Norm+head time: 5467.13 ms -> token (id=11)
+[2026-02-18 17:56:38] (Seq 5) Emitting next_token=tensor([[11]])
